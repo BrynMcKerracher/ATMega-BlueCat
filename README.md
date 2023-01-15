@@ -14,4 +14,5 @@ BlueCat Assembly is an 8-bit instruction set prioritising fast vector-math calcu
 ### The BlueCat VM
 The BlueCat VM is a stack-based RISC-architecture machine. Each instruction takes exactly one clock-cycle to execute to allow for the eventual addition of an instruction pipeline. The BlueCat VM is optimised for space-complexity whenever possible, with the exception of vector-math operations which are optimised for speed. The VM is stack-based to reduce the complexity of implementation.
 
-
+# Docs
+Documentation is automatically deployed from the ```main``` branch and is found <a href="https://brynmckerracher.github.io/ATMega-BlueCat/">here</a>.
