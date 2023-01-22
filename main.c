@@ -2,8 +2,6 @@
 // Created by Bryn McKerracher on 22/01/23.
 //
 
-#include <stdio.h>
-
-int main() {
+int main(int argc, const char** argv) {
     return 0;
 }
