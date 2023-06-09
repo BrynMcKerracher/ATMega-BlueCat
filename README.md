@@ -2,11 +2,11 @@
 A stack-based virtual-machine (VM) written in Arduino/C++ for the Atmel ATMega chips.
 
 ## Project Overview 
-Project BlueCat is a language implementation and VM platform for game-development on Atmel ATMega chips. It aims to provide a Reduced Instruction Set Computer (RISC) based VM and accompanying general-purpose programming language (GPL) for 2D graphics-based game-development on AVR ATMega chips.
+Project BlueCat is a language implementation and VM platform for game-development on Atmel ATMega chips. It aims to provide a Reduced Instruction Set Computer (RISC)-based VM and accompanying general-purpose programming language (GPL) for 2D graphics-based game-development on AVR ATMega chips.
 
 The whole BlueCat project covers three main things:
 ## BlueCat GPL
-BlueCat GPL (BCGPL) is a weakly-typed, late-bound language based heavily on the Lox language by Robert Nystrom. It aims to provide a simple grammar for Object-Oriented Programming (OOP), with an emphasis on game-development for targeting [ATMega megaAVR](https://en.wikipedia.org/wiki/AVR_microcontrollers#:~:text=megaAVR%20%E2%80%93%20the%20ATmega%20series) series chips from Atmel. The compilation process is a single pass to reduce the complexity of implementation, and the compiler's output language is BlueCat Assembly Language.
+BlueCat GPL (BCGPL) is a weakly-typed, late-bound language based heavily on the Lox language by Robert Nystrom. It aims to provide a simple grammar for Object-Oriented Programming (OOP), with an emphasis on game-development for targeting [ATMega megaAVR](https://en.wikipedia.org/wiki/AVR_microcontrollers#:~:text=megaAVR%20%E2%80%93%20the%20ATmega%20series) series chips from Atmel. The compilation process is a single pass to reduce the complexity of implementation. The compiler's output language is BlueCat Assembly Language.
 
 ## BlueCat Assembly Language
 BlueCat Assembly Language (BAL) is the intermediary language produced by the BCGPL compiler and interpreted by the BlueCat VM (BCVM), and has the following properties:
