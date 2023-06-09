@@ -6,7 +6,7 @@ Project BlueCat is a language implementation and VM platform for game-developmen
 
 The whole BlueCat project covers three main things:
 ## BlueCat GPL
-BlueCat GPL (BCGPL) is a weakly-typed, late-bound language based heavily on the Lox language by Robert Nystrom. It aims to provide a simple grammar for Object-Oriented Programming (OOP), with an emphasis on game-development for targeting [ATMega megaAVR](https://en.wikipedia.org/wiki/AVR_microcontrollers#:~:text=megaAVR%20%E2%80%93%20the%20ATmega%20series)-series chips from Atmel. The compilation process is a single pass to reduce the complexity of implementation, and the compiler's output language is BlueCat Assembly.
+BlueCat GPL (BCGPL) is a weakly-typed, late-bound language based heavily on the Lox language by Robert Nystrom. It aims to provide a simple grammar for Object-Oriented Programming (OOP), with an emphasis on game-development for targeting [ATMega megaAVR](https://en.wikipedia.org/wiki/AVR_microcontrollers#:~:text=megaAVR%20%E2%80%93%20the%20ATmega%20series) series chips from Atmel. The compilation process is a single pass to reduce the complexity of implementation, and the compiler's output language is BlueCat Assembly.
 
 ## BlueCat Assembly Language
 BlueCat Assembly Language (BAL) is the intermediary language produced by the BCGPL compiler and interpreted by the BlueCat VM (BCVM), and has the following properties:
