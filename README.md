@@ -1,4 +1,4 @@
-# BlueCat Game Console
+# BlueCat ATMega Game Console
 A stack-based virtual-machine (VM) written in Arduino/C++ for the Atmel ATMega chips.
 
 ## Project Overview 
