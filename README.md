@@ -9,9 +9,11 @@ BlueCat GPL (BCGPL) is a weakly-typed, late-bound language based heavily on the 
 
 ## BlueCat Assembly Language
 BlueCat Assembly Language (BAL) is the intermediary language produced by the BCGPL compiler and interpreted by the BlueCat VM (BCVM), and has the following properties:
-### 8-Bit Instruction Set
-BlueCat assembly operates using an 8-bit instruction set. This is designed to maximise the interpretation speed of the BlueCat VM by using the smallest possible word size per instruction, which requires fewer RAM accesses per instruction sequence than using a larger word size. This comes at the cost of limiting the maximum size of the instruction set to 256, but provides the additional benefit of minimising RAM usage in a low-RAM environment.
-### 16-Bit Address Space
+
+**8-Bit Instruction Set**   
+BlueCat assembly operates using an 8-bit instruction set. This is designed to maximise the interpretation speed of the BlueCat VM by using the smallest possible word size per instruction, which requires fewer RAM accesses per instruction sequence than using a larger word size. This comes at the cost of limiting the maximum size of the instruction set to 256, but provides the additional benefit of minimising RAM usage in a low-RAM environment.  
+
+**16-Bit Address Space**  
 The VM's total addressable space is 16-bits, split into two 8-bit words. A 16-bit address space is sufficient for addressing memory spaces of up to 64KB, which covers the entire range of megaAVR chips this project is interested in. Provisions have been made for targeting larger address spaces (and therefore chips outside the megaAVR range) by abstracting address implementation into its own module in which the underlying type for an address can be changed, but it should be noted that extending the address space will incur a performance loss in the VM and increase the size of BAL sequences produced by the compiler.
 
 ## The BlueCat VM
