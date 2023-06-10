@@ -17,7 +17,7 @@ BlueCat assembly operates using an 8-bit instruction set. This is designed to ma
 The VM's total addressable space is 16-bits, split into two 8-bit words. A 16-bit address space is sufficient for addressing memory spaces of up to 64KB, which covers the entire range of megaAVR chips this project is interested in. Provisions have been made for targeting larger address spaces (and therefore chips outside the megaAVR range) by abstracting address implementation into its own module in which the underlying type for an address can be changed, but it should be noted that extending the address space will incur a performance loss in the VM and increase the size of BAL sequences produced by the compiler.
 
 ## The BlueCat VM
-The BlueCat VM is a stack-based RISC-architecture machine. Each operation takes exactly one VM instruction-cycle to execute. 
+The BlueCat VM is a stack-based RISC-architecture machine that interprets and executes BAL sequences. Each BAL instruction takes exactly one VM instruction-cycle to execute.
 
 # Documentation
 Documentation is automatically deployed from the ```main``` branch and is found <a href="https://brynmckerracher.github.io/ATMega-BlueCat/">here</a>.
