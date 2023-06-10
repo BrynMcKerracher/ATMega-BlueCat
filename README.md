@@ -1,5 +1,5 @@
-# BlueCat ATMega Game Console
-A stack-based virtual-machine (VM) written in Arduino/C++ for the Atmel ATMega chips.
+# BlueCat: An ATMega Game Console
+**TLDR:** BlueCat is a general-purpose programming language (GPL) implementation and stack-based virtual-machine (VM) written in Arduino/C++ for game development on Atmel ATMega chips.
 
 ## Project Overview 
 Project BlueCat is a language implementation and VM platform for game-development on Atmel ATMega chips. It aims to provide a Reduced Instruction Set Computer (RISC)-based VM and accompanying general-purpose programming language (GPL) for 2D graphics-based game-development on AVR ATMega chips.
