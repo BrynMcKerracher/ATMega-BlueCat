@@ -25,7 +25,7 @@ jobs:
        - name: Build & Test
          uses: ashutoshvarma/action-cmake-build@master
          with:
-              build-dir: ${{ runner.workspace }}/build
+              build-dir: ${{ runner.workspace }}
               # will set the CC & CXX for cmake
               cc: gcc
               cxx: g++
