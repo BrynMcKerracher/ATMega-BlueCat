@@ -42,7 +42,7 @@ int main(int argc, char** argv) {
         std::stringstream fileBuffer;
         fileBuffer << file.rdbuf();
 
-        std::cout << "========================= BlueCat VM Start ============================\n";
+        std::cout << "========================= BlueCat VM Start ============================ \n";
         BlueCat::VirtualMachine vm;
         BlueCat::VirtualMachine::InterpretResult result = vm.Interpret(fileBuffer.str().c_str(), vmMode);
         switch (result) {
