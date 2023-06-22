@@ -323,7 +323,7 @@ BlueCat::VirtualMachine::InterpretResult BlueCat::VirtualMachine::Run() {
                 break;
             }
             case Op::Print: {
-                Printer::PrintValue(Pop());
+                //Printer::PrintValue(Pop());
                 break;
             }
             case Op::Remainder: {
