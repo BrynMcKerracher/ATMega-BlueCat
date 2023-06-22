@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Automated GTest C++ Testing
 
 # Controls when the workflow will run
 on:
@@ -22,11 +22,19 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout
-      - uses: actions/checkout@v3
-      - name: Build project
-        uses: nicledomaS/cmake_build_action@v1.4
-        with:
-          run_tests: ON
-          unit_test_build: -Dtest=ON
+       - name: Build & Test
+         uses: ashutoshvarma/action-cmake-build@master
+         with:
+              build-dir: ${{ runner.workspace }}/build
+              # will set the CC & CXX for cmake
+              cc: gcc
+              cxx: g++
+              build-type: Release
+              # Extra options pass to cmake while configuring project
+              configure-options: -DCMAKE_C_FLAGS=-w32 -DPNG_INCLUDE=OFF
+              run-test: true
+              ctest-options: -R FullPipeLineTests
+              # install the build using cmake --install
+              install-build: true
+              # run build using '-j [parallel]' to use multiple threads to build
+              parallel: 14
