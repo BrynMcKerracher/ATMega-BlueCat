@@ -1,3 +1,5 @@
+[![Full Pipeline Tests](https://github.com/BrynMcKerracher/ATMega-BlueCat/actions/workflows/Full%20Pipeline%20Test.yml/badge.svg)](https://github.com/BrynMcKerracher/ATMega-BlueCat/actions/workflows/Full%20Pipeline%20Test.yml) [![Deploy Documentation](https://github.com/BrynMcKerracher/ATMega-BlueCat/actions/workflows/Upload%20Documentation.yml/badge.svg)](https://github.com/BrynMcKerracher/ATMega-BlueCat/actions/workflows/Upload%20Documentation.yml)
+
 # BlueCat: An ATMega Game Console
 **TLDR:** BlueCat is a language implementation and VM platform for game-development on Atmel ATMega chips.
 
