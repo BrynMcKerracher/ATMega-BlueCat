@@ -29,7 +29,7 @@ jobs:
               # will set the CC & CXX for cmake
               cc: gcc
               cxx: g++
-              build-type: Release
+              build-type: Debug
               # Extra options pass to cmake while configuring project
               configure-options: -DCMAKE_C_FLAGS=-w32 -DPNG_INCLUDE=OFF
               run-test: true
