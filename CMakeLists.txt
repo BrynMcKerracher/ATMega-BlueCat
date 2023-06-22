@@ -12,10 +12,6 @@ add_executable(BlueCat
         BlueCat/Compiler/Compiler.h
         BlueCat/Debug/Debug.cpp
         BlueCat/Debug/Debug.h
-        BlueCat/Hashable.cpp
-        BlueCat/Hashable.h
-        BlueCat/Hashing.cpp
-        BlueCat/Hashing.h
         BlueCat/HashTable.cpp
         BlueCat/HashTable.h
         BlueCat/Local.cpp
@@ -78,10 +74,6 @@ add_executable(
         BlueCat/Compiler/Compiler.h
         BlueCat/Debug/Debug.cpp
         BlueCat/Debug/Debug.h
-        BlueCat/Hashable.cpp
-        BlueCat/Hashable.h
-        BlueCat/Hashing.cpp
-        BlueCat/Hashing.h
         BlueCat/HashTable.cpp
         BlueCat/HashTable.h
         BlueCat/Local.cpp
