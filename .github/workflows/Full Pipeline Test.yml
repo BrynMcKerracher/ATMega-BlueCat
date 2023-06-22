@@ -1,4 +1,4 @@
-name: CMake
+name: Full Pipeline Tests
 
 on:
   push:

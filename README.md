@@ -1,3 +1,4 @@
+[![pages-build-deployment](https://github.com/BrynMcKerracher/ATMega-BlueCat/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/BrynMcKerracher/ATMega-BlueCat/actions/workflows/pages/pages-build-deployment)
 # BlueCat: An ATMega Game Console
 **TLDR:** BlueCat is a language implementation and VM platform for game-development on Atmel ATMega chips.
 
